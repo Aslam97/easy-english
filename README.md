@@ -72,6 +72,16 @@ These steps can change. The help page [Use skills in Claude](https://support.cla
 
 Some tools have no skills. For such a tool, copy the text of [`SKILL.md`](skills/easy-english/SKILL.md) into its instruction file, for example `AGENTS.md`.
 
+### Update
+
+To get the newest version of the skill, run this command:
+
+```bash
+npx skills update easy-english
+```
+
+If you installed the skill with `-g`, add `-g` to this command too.
+
 ## Use
 
 The assistant loads the skill when the skill fits the task. You can also ask for it:
